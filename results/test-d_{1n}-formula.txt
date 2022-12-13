@@ -1,0 +1,8 @@
+n: 2, q: 2 formula: 4 real: 4
+n: 2, q: 3 formula: 18 real: 18
+n: 2, q: 4 formula: 48 real: 48
+n: 2, q: 5 formula: 100 real: 100
+n: 3, q: 2 formula: 96 real: 96
+n: 3, q: 3 formula: 3888 real: 3888
+n: 3, q: 4 formula: 46080 real: 46080
+n: 4, q: 2 formula: 10752 real: 10752
