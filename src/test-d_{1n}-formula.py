@@ -16,5 +16,4 @@ for n, q in cases:
 
     print(f'n: {n}, q: {q}', end=' ')
     print(f'formula: {d_ij(*args)}', end=' ')
-    print(f'real: {calculate_objects(n, q, is_in_d_ij, args)}')
-
+    print(f'real: {calculate_objects(n, n, q, is_in_d_ij, args)}')

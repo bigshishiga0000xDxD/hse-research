@@ -1,0 +1,11 @@
+n: 2, q: 2, i: 1, j: 1 formula: 5 real: 5
+n: 2, q: 3, i: 1, j: 1 formula: 14 real: 14
+n: 2, q: 4, i: 1, j: 1 formula: 27 real: 27
+n: 2, q: 5, i: 1, j: 1 formula: 44 real: 44
+n: 3, q: 2, i: 1, j: 2 formula: 198 real: 198
+n: 3, q: 3, i: 1, j: 2 formula: 4224 real: 4224
+n: 3, q: 2, i: 2, j: 1 formula: 33 real: 33
+n: 3, q: 3, i: 2, j: 1 formula: 176 real: 176
+n: 4, q: 2, i: 1, j: 3 formula: 27048 real: 27048
+n: 4, q: 2, i: 2, j: 2 formula: 5814 real: 5814
+n: 4, q: 2, i: 3, j: 1 formula: 161 real: 161

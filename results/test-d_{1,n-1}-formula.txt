@@ -1,8 +1,0 @@
-n: 2, q: 2 formula: 5 real: 5
-n: 2, q: 3 formula: 14 real: 14
-n: 2, q: 4 formula: 27 real: 27
-n: 2, q: 5 formula: 44 real: 44
-n: 3, q: 2 formula: 198 real: 198
-n: 3, q: 3 formula: 4224 real: 4224
-n: 3, q: 4 formula: 33300 real: 33300
-n: 4, q: 2 formula: 27048 real: 27048

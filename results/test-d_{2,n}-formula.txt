@@ -1,0 +1,4 @@
+n: 3, q: 2 formula: 112 real: 112
+n: 3, q: 3 formula: 4698 real: 4698
+n: 3, q: 4 formula: 54528 real: 54528
+n: 4, q: 2 formula: 13056 real: 13056
