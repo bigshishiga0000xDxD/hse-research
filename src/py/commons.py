@@ -60,6 +60,7 @@ def calculate_objects(n: int, m: int, q: int, callback: Callable[..., bool],
 
     `callback` should take `arr` as an argument
     """
+    F = galois.GF(q)
     mask_max = q ** (n * m)
     arr = [[0] * m for _ in range(n)]
     result = 0
@@ -70,7 +71,7 @@ def calculate_objects(n: int, m: int, q: int, callback: Callable[..., bool],
                 arr[i][j] = mask % q
                 mask //= q
 
-        result += bool(callback(*args, arr=arr))
+        result += bool(callback(*args, arr=F(arr)))
 
     return result
 
@@ -94,7 +95,7 @@ def get_objects(n: int, m: int, q: int, callback: Callable[..., bool],
                 arr[i][j] = mask % q
                 mask //= q
 
-        if callback(*args, arr=arr):
+        if callback(*args, arr=F(arr)):
             result.append(F(arr))
 
     return result
@@ -114,3 +115,15 @@ def is_in_d_ij(n: int, q: int, i: int, j: int,
 
 def d_ij_brute(n: int, q: int, i: int, j: int) -> int:
     return calculate_objects(n, n, q, is_in_d_ij, (n, q, i, j))
+
+
+def get_by_mask(n: int, m: int, q: int, mask: int) -> np.array:
+    F = galois.GF(q)
+    arr = [[0] * m for _ in range(n)]
+
+    for i in range(n):
+        for j in range(m):
+            arr[i][j] = mask % q
+            mask //= q
+
+    return F(arr)

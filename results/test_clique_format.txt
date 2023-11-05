@@ -1,0 +1,6 @@
+testing cliques for (n, m, q) = (2, 3, 3)
+26868/26868 cliques are of standart form
+testing cliques for (n, m, q) = (2, 4, 3)
+5225/5225 cliques are of standart form
+testing cliques for (n, m, q) = (2, 5, 3)
+404/404 cliques are of standart form

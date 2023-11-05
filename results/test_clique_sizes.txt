@@ -1,0 +1,116 @@
+running for n = 3, m = 3, q = 2
+graph is built in 0.018112 secs
+found clique of size 44 on iteration: 0
+found clique of size 64 on iteration: 33
+found new clique type on iteration: 33
+rank 0: 0
+rank 1: 4
+rank 2: 36
+rank 3: 24
+
+found new clique type on iteration: 60
+rank 0: 1
+rank 1: 21
+rank 2: 42
+rank 3: 0
+
+_______________________________
+
+ran 1000000 iterations
+maximum clique is of size 64
+hypothesis is 64
+ranks (0, 4, 36, 24, ): 30390
+ranks (1, 21, 42, 0, ): 4285
+
+_______________________________
+
+running for n = 3, m = 3, q = 3
+graph is built in 20.3818 secs
+found clique of size 20 on iteration: 0
+found clique of size 51 on iteration: 10
+found clique of size 729 on iteration: 11
+found new clique type on iteration: 11
+rank 0: 1
+rank 1: 68
+rank 2: 660
+rank 3: 0
+
+found new clique type on iteration: 210
+rank 0: 1
+rank 1: 92
+rank 2: 636
+rank 3: 0
+
+found new clique type on iteration: 855
+rank 0: 1
+rank 1: 80
+rank 2: 648
+rank 3: 0
+
+_______________________________
+
+ran 100000 iterations
+maximum clique is of size 729
+hypothesis is 729
+ranks (1, 68, 660, 0, ): 71
+ranks (1, 80, 648, 0, ): 55
+ranks (1, 92, 636, 0, ): 115
+
+_______________________________
+
+running for n = 2, m = 3, q = 3
+graph is built in 0.064202 secs
+found clique of size 4 on iteration: 0
+found clique of size 5 on iteration: 5
+found clique of size 27 on iteration: 28
+found new clique type on iteration: 28
+rank 0: 1
+rank 1: 26
+rank 2: 0
+
+_______________________________
+
+ran 1000000 iterations
+maximum clique is of size 27
+hypothesis is 27
+ranks (1, 26, 0, ): 26868
+
+_______________________________
+
+running for n = 2, m = 4, q = 3
+graph is built in 2.60271 secs
+found clique of size 4 on iteration: 0
+found clique of size 81 on iteration: 11
+found new clique type on iteration: 11
+rank 0: 1
+rank 1: 80
+rank 2: 0
+
+_______________________________
+
+ran 500000 iterations
+maximum clique is of size 81
+hypothesis is 81
+ranks (1, 80, 0, ): 5225
+
+_______________________________
+
+running for n = 2, m = 5, q = 3
+graph is built in 242.611 secs
+found clique of size 4 on iteration: 0
+found clique of size 5 on iteration: 85
+found clique of size 243 on iteration: 156
+found new clique type on iteration: 156
+rank 0: 1
+rank 1: 242
+rank 2: 0
+
+_______________________________
+
+ran 100000 iterations
+maximum clique is of size 243
+hypothesis is 243
+ranks (1, 242, 0, ): 404
+
+_______________________________
+
